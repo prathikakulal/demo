@@ -1,0 +1,59 @@
+.login-container {
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background: white; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    box-sizing: border-box; /* Include padding in width */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.error {
+    color: red; /* Red color for error messages */
+    margin-bottom: 15px; /* Space below the error message */
+    text-align: center; /* Center the error message */
+}
+
+.success {
+    color: green; /* Green color for success messages */
+    margin-bottom: 15px; /* Space below the success message */
+    text-align: center; /* Center the success message */
+}
